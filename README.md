@@ -1,44 +1,39 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
+# LeetCode
 
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
-
-# NomedoProjeto
-
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Número da Lista**: 19<br>
+**Conteúdo da Disciplina**: Dividir e Conquistar<br>
 
 ## Alunos
-|Matrícula | Aluno |
-| -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+
+| Matrícula | Aluno                 |
+| --------- | --------------------- |
+| 211061805 | Guilherme Westphall   |
+| 221022088 | Lucas Martins Gabriel |
+
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+
+O projeto consiste em resolver problemas de Dividir e Conquistar de plataformas como o LeetCode e o GeekForGeeks. O objetivo é praticar os conceitos aprendidos durante o módulo de Dividir e Conquistar.
+
+## Questões
+
+| Questão          | Título                                                                                                                                               | Dificuldade |
+| ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| 23               | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)                                                                          | Hard        |
+| Count Inversions | [Count Inversions](https://www.geeksforgeeks.org/problems/inversion-of-array-1587115620/1?page=1&category=Divide%20and%20Conquer&sortBy=submissions) | Medium      |
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+
+![23](./assets/23.png)
+
+![ci](./assets/ci.png)
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**: C++<br>
 
 ## Uso 
 Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
 
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
 
 
 
