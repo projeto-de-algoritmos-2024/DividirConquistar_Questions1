@@ -41,7 +41,11 @@ O projeto consiste em resolver problemas de Dividir e Conquistar de plataformas 
 **Linguagem**: C++ e Python<br>
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+Para testar as soluções basta submeter o código nas respectivas plataformas de exercícios.
+
+## Vídeo
+
+https://youtu.be/d3Oiazv2oCk
 
 
 
