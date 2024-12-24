@@ -21,15 +21,24 @@ O projeto consiste em resolver problemas de Dividir e Conquistar de plataformas 
 | ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
 | 23               | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)                                                                          | Hard        |
 | Count Inversions | [Count Inversions](https://www.geeksforgeeks.org/problems/inversion-of-array-1587115620/1?page=1&category=Divide%20and%20Conquer&sortBy=submissions) | Medium      |
+| 4                | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)                                                | Hard        |
 
 ## Screenshots
 
+### Merge k Sorted Lists
+
 ![23](./assets/23.png)
+
+### Count Inversions
 
 ![ci](./assets/ci.png)
 
+### Median of Two Sorted Arrays
+
+![4](./assets/mediaOfTwoSortedArrays.png)
+
 ## Instalação 
-**Linguagem**: C++<br>
+**Linguagem**: C++ e Python<br>
 
 ## Uso 
 Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
