@@ -32,9 +32,6 @@ class Solution(object):
             medians.append(median)
         return medians
     def medianOfMedians(self, vector, k):
-        if (len(vector) <= 5):
-            vector.sort()
-            return vector[k]
         groups = self.divideIntoGroup(vector)
         groups = self.sortGroups(groups)
         medians = self.medianOfGroup(groups)
@@ -43,9 +40,14 @@ class Solution(object):
             groups = self.sortGroups(groups)
             medians = self.medianOfGroup(groups)
         median = medians[self.knownMedian(len(medians))]
-        minors = [element for element in vector if element < median]
-        equal = [element for element in vector if element == median]
-        majors = [element for element in vector if element > median]
+        minors, equal, majors = [], [], []
+        for element in vector:
+          if element < median:
+              minors.append(element)
+          elif element == median:
+              equal.append(element)
+          else:
+              majors.append(element)
         minors = minors + equal
         minors.pop()
         
@@ -59,7 +61,7 @@ class Solution(object):
     def findMedianSortedArrays(self, nums1, nums2):
         vector = nums1+nums2
         result = self.medianOfMedians(vector, len(vector)//2)
-        if len(vector) % 2 == 0:
-            result += self.medianOfMedians(vector, len(vector)//2-1)
-            result = float(result / 2)
+        # if len(vector) % 2 == 0:
+            # result += self.medianOfMedians(vector, len(vector)//2-1)
+            # result = float(result / 2)
         return float(result)
