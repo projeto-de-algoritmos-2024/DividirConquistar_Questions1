@@ -1,6 +1,17 @@
 import math
 from typing import List
 
+# 4. Median of Two Sorted Arrays (https://leetcode.com/problems/median-of-two-sorted-arrays/description/)
+#
+# Hard
+#
+# Given two sorted arrays nums1 and nums2 of size m and n respectively, return the median of the two sorted arrays.
+# The overall run time complexity should be O(log (m+n)).
+# 
+# Example 1
+# Input: nums1 = [1,3], nums2 = [2]
+# Output: 2.00000
+
 class Solution(object):
     def divideIntoGroups(self, vector):
         groups = [vector[i:i+5] for i in range(0, len(vector), 5)]
